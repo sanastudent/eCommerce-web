@@ -8,7 +8,7 @@ const Discount = () => {
     
     <div className="px-4 sm:px-8 lg:px-16 py-8">
     {/* Heading */}
-    <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#151875] mt-24 text-center">
+    <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#151875]  text-center">
       Discount Item
     </h1>
   
@@ -20,9 +20,11 @@ const Discount = () => {
     </div>
   
     {/* Image */}
-    <div className="flex justify-center mb-12">
+    <div className="flex justify-center mb-8">
       <Image src="/dis.png" width={1210} height={590} alt="sofa" className="w-full max-w-[1214px]" />
     </div>
+
+   
   </div>
   
   )

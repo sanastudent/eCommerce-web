@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Image from 'next/image'
 
 const Images = () => {
   return (
@@ -17,45 +18,45 @@ const Images = () => {
   <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
     {/* Image 1 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/Image1.png"
-        alt="Image 1"
+        alt="Image 1" width={270} height={361}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
 
     {/* Image 2 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/Image4.png"
-        alt="Image 2"
+        alt="Image 2" width={270} height={361}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
 
     {/* Image 3 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/image3.png"
-        alt="Image 3"
+        alt="Image 3" width={270} height={361}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
 
     {/* Image 4 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/Image2.png"
-        alt="Image 4"
+        alt="Image 4" width={270} height={361}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
   </div>
 
   <div className="flex justify-center items-center my-8">
-  <img
+  <Image
     src="/points.png"  // Replace with your image path
-    alt="points"
+    alt="points" width={91} height={4}
     className="w-1/4 sm:w-1/6 md:w-1/8 h-auto object-contain"
   />
 </div>

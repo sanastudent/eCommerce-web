@@ -7,6 +7,8 @@ import Unique from "@/components/Sofa";
 import Sofa from "@/components/Sofa";
 import Trend from "@/components/Trend";
 import Discount from "@/components/Discount";
+import Categories from "@/components/Categories";
+import Blog from "@/components/Blog";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Sofa/>
       <Trend/>
       <Discount/>
+      <Categories/>
+      <Blog/>
 
 
 

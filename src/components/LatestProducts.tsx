@@ -1,6 +1,7 @@
 
 
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const LatestProducts = () => {
   return (
@@ -23,54 +24,54 @@ const LatestProducts = () => {
   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-6 container mx-auto px-8">
     {/* Image 1 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/1.png"
-        alt="Image 1"
+        alt="Image 1" width={360} height={306}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
 
     {/* Image 2 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/2.png"
-        alt="Image 2"
+        alt="Image 2"  width={360} height={306}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
 
     {/* Image 3 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/3.png"
-        alt="Image 3"
+        alt="Image 3"  width={360} height={306}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
 
     {/* Image 4 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/4.png"
-        alt="Image 4"
+        alt="Image 4"  width={360} height={306}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
 
     {/* Image 5 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/5.png"
-        alt="Image 5"
+        alt="Image 5"  width={360} height={306}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
 
     {/* Image 6 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
-      <img
+      <Image
         src="/6.png"
-        alt="Image 6"
+        alt="Image 6"  width={360} height={306}
         className="w-full h-auto object-cover rounded-md"
       />
     </div>
