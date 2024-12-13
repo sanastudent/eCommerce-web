@@ -37,7 +37,7 @@ const Images = () => {
     {/* Image 3 */}
     <div className="bg-white p-4 border border-gray-200 rounded-md shadow-md">
       <Image
-        src="/image3.png"
+        src="/Image3.png"
         alt="Image 3" width={270} height={361}
         className="w-full h-auto object-cover rounded-md"
       />
