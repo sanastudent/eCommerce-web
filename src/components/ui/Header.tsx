@@ -36,10 +36,17 @@ export default function Header(){
          <div className=" flex items-center p-40">
             <p className="text-white flex items-center  mr-4">English <ChevronDown /></p>
             <p className="text-white flex items-center  mr-4">USD <ChevronDown /></p>
-            <p className="text-white flex items-center  mr-4">Login <User/></p>
+
+            <Link href="/login" className="text-white flex items-center  mr-4">
+            Login <User/>
+            </Link>
             <p className="text-white flex items-center  mr-4">Wishlist <Heart/></p>
-            <ShoppingCart className="text-white"/>
-        
+
+
+            <Link href="/cart">
+             <ShoppingCart className="text-white"/>
+            </Link>
+
          </div>
          </div>
          </div>

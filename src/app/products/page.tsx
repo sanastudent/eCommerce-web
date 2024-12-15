@@ -3,6 +3,8 @@ import Footer from "@/components/ui/Footer"
 import ImageGallery from "@/components/ui/ImageGallery"
 import { ArrowRight } from "lucide-react"
 import Image from "next/image"
+import { useCart } from "../context/CartContext"
+
 
 export default function Products(){
     return(
