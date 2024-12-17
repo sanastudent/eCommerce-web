@@ -31,6 +31,7 @@ const Navbar = () => {
             <Link href="/products" className="text-sm font-normal">Products</Link>
             <Link href="/blog" className="text-sm font-normal">Blog</Link>
             <Link href="/shop" className="text-sm font-normal">Shop</Link>
+            <Link href="/about" className="text-sm font-normal">About</Link>
             <Link href="/contact" className="text-sm font-normal">Contact</Link>
             </div>
 
@@ -66,6 +67,7 @@ const Navbar = () => {
                         <Link href="/products" className="text-sm font-normal">Products</Link>
                         <Link href="/blog" className="text-sm font-normal">Blog</Link>
                         <Link href="/shop" className="text-sm font-normal">Shop</Link>
+                        <Link href="/about" className="text-sm font-normal">About</Link>
                          <Link href="/contact" className="text-sm font-normal">Contact</Link>
 
                 </div>

@@ -40,23 +40,25 @@ const Login = () => {
       <p className='text-sm text-[#8A8FB9] text-center mb-5'>Please login using account detail below</p>
       <form onSubmit={handleLogin} className="space-y-4">
 
-        {/* email section */}
-        <div>
-          <label htmlFor="email" className="block text-sm font-medium" >Email</label>
-          <input
-            id="email"
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            className="w-full p-2 border border-gray-300 rounded-md"
-          />
-        </div>
+     {/* email section */}
+<div>
+  <label htmlFor="email" className="block text-sm font-medium">Email</label>
+  <input
+    id="email"
+    type="email"
+    value={email}
+    onChange={(e) => setEmail(e.target.value)}
+    required
+    placeholder="Enter your email" // Add placeholder here
+    className="w-full p-2 border border-gray-300 rounded-md"
+  />
+</div>
+
 
         {/* password section */}
 
         <div>
-          <label htmlFor="password" className="block text-sm font-medium" >Password</label>
+          <label htmlFor="password" className="block text-sm font-medium"  >Password</label>
           <div className="relative">
             <input
               id="password"
@@ -64,6 +66,7 @@ const Login = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
+              placeholder="Password" 
               className="w-full p-2 border border-gray-300 rounded-md"
             />
             <div

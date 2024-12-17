@@ -1,3 +1,4 @@
+
 import MyComponent from "@/components/Shop";
 import Footer from "@/components/ui/Footer";
 import ImageGallery from "@/components/ui/ImageGallery";
@@ -58,6 +59,8 @@ export default function Shop(){
     className="w-full h-auto" 
   />
 </div>
+
+
 
 
 <Footer/>
